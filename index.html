@@ -9,80 +9,127 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://code.jquery.com/jquery-2.2.4.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         body {
             font-family: "Century Gothic";
         }
+
+        button {
+            background-color: black;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 10px;
+            padding: 0px 15px 0px 15px;
+        }
+
+        button:hover{
+            padding: 5px 20px 5px 20px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-lg-4 col-sm-5" style="background-color: black;">
-            <h1 style="font-size:80px; text-align: right; color: white;">JACKSON</h1>
-            <h5 style="text-align: right; color: white;">WEB & GRAPHIC DESIGNER</h5>
-            <img style="width: 100%;" src="./images/profile-photo.jpg" alt="">
-            <div class="container">
-                <h2>ABOUT ME</h2>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
-                    voluptate.
-                    Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur exercitationem
-                    accusamus
-                    facere inventore optio?</P>
+    <div class="container col-lg-12 col-sm-12">
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-5" style="background-color: black; height: 80%;">
+                <h1 style="font-size: 6vw; text-align: right; color: white;">JACKSON</h1>
+                <h5 style="text-align: right; color: white; font-size: 2vw">WEB & GRAPHIC DESIGNER</h5>
+                <img style="width: 100%;" src="./images/profile-photo.jpg" alt="">
+                <div style="color: white;" class="container pt-5">
+                    <h2>ABOUT ME</h2>
+                    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
+                        voluptate.
+                        Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur
+                        exercitationem
+                        accusamus
+                        facere inventore optio?</P>
+                </div>
+                <br>
+                <hr style="color: white;" class="solid">
+                <ul class="list-group py-5">
+                    <li class="list-group-item d-flex align-items-center fa fa-user-circle">
+                        &nbsp;&nbsp;www.jacksonlauresume.com
+                    </li>
+                    <li class="list-group-item d-flex align-items-center fa fa-map-marker">&nbsp;&nbsp;Tokyo, Japan
+                    </li>
+                    <li class="list-group-item d-flex align-items-center fa fa-phone">&nbsp;&nbsp;+6017-329
+                        0009</li>
+                    <li class="list-group-item d-flex align-items-center fa fa-envelope">
+                        &nbsp;&nbsp;jacksonlaudesigner@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-7 col-sm-7">
+
+                <h1 style=" font-size:6vw;">LAU</h1>
+                <br>
+
+                <button id="hide">Hide Details</button>
+                <button id="show">Show Details</button>
+                <div id="cards-section">
+                    <h2>EDUCATION</h2>
+                    <div class="card mt-3 my-3" s>
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3 my-3">
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3 my-3">
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <h2>EXPERIENCES</h2>
+                    <div class="card mt-3 my-3">
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3 my-3">
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card mt-3 my-3">
+                        <div class="card-body">
+                            <h3 class="card-title">YEAR</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="col-lg-8 col-sm-7">
-            <h1 style=" font-size:80px;">LAU</h1>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <div class="container">
-                <h2>EDUCATION</h2>
-                <h3>YEAR</h3>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
-                    voluptate.
-                    Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur exercitationem
-                    accusamus
-                    facere inventore optio?</P>
-            </div>
-
-            <div class="container">
-                <h3>YEAR</h3>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
-                    voluptate.
-                    Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur exercitationem
-                    accusamus
-                    facere inventore optio?</P>
-            </div>
-            <br>
-            <br>
-            <div class="container">
-                <h2>EXPERIENCES</h2>
-                <h3>YEAR</h3>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
-                    voluptate.
-                    Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur exercitationem
-                    accusamus
-                    facere inventore optio?</P>
-            </div>
-            <div class="container">
-                <h3>YEAR</h3>
-                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nisi suscipit aperiam eaque
-                    voluptate.
-                    Quia a accusamus nisi ullam! Numquam eius officia expedita nihil, consequuntur exercitationem
-                    accusamus
-                    facere inventore optio?</P>
-            </div>
-        </div>
     </div>
 
-
-    <script src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
@@ -96,9 +143,32 @@
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
         crossorigin="anonymous"></script>
 
-    <script>
 
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("#cards-section").fadeOut();
+            });
+            $("#show").click(function () {
+                $("#cards-section").fadeIn();
+            });
+        });
     </script>
+
 </body>
+
+<footer>
+    <br>
+    <div class="container col-lg-12" style="background-color: black; color: white;">
+        <h3 style="text-align:center;">Follow my Social Media Account</h3>
+        <div class="icons align-items-center d-flex" style="padding-left: 50%;">
+            <a href="https://www.pinterest.com/" class="fa fa-pinterest"
+                style="text-decoration: none; color: white;"></a>
+            <a href="#" class="fa fa-twitter" style="text-decoration: none; color: white;"></a>
+            <a href="#" class="fa fa-facebook" style="text-decoration: none; color: white;"></a>
+            <a href="#" class="fa fa-instagram" style="text-decoration: none; color: white;"></a>
+        </div>
+    </div>
+</footer>
 
 </html>
